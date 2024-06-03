@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&family=Sacramento&display=swap');
+*{
+    margin: 0;   /* margem da pagina*/
+    padding: 0;  /* distância entre o conteúdo e as bordas*/
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    font-size: 100%;
+    background:#714a42;    /* cor de fundo*/
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px; 
+}
+
+.cabecalho-menu{
+    display: flex;  /* torna o menu flexível*/
+    gap: 30px;   /* espaço de 30px enre linhas e colunas*/
+}
+
+.cabecalho-menu-item{
+    font-family: "Quicksand", sans-serif;  /* fonte do texto*/
+    color: #FFF2E7;  /* cor do texto*/
+    font-weight: 500;   /* expessura das letras*/
+    font-size: 18px;  /* tamanho das letras*/
+}
+
+.conteudo{
+    margin-bottom: 48px;  /* espessura da borda que separa o menu-cabeçalho do conteudo principal*/
+    border-top: 0.5px solid #FFF2E7;  /* cor da borda*/
+}
+
+.conteudo-principal{
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFF2E7;
+    margin: 0 auto;
+}
+
+.conteudo-principal-formacao-sobre-mim{
+    font-family: "Quicksand", sans-serif;/* fonte do texto*/
+    font-weight: 300; /* expessura das letras*/
+    font-size: 25px; /* tamanho das letras*/
+    color: #FFF2E7; /* cor do texto*/
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+.conteudo-principal-hobbies{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFF2E7;
+}
+
+.conteudo-secundario{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.conteudo-secundario-livro{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF2E7;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo-secundario-respostal{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFF2E7;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo-secundario-filme{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF2E7;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo-secundario-resposta2{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFF2E7;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.livro-imagem{
+    position: relative;
+    width: 250px; /* largura desejada */
+    height: 250px; /* altura desejada */
+    transform: translate(-103%, 50%); /* ajusta para o centro */
+}
+
+.filme-imagem{
+    width: 250px; /* largura desejada */
+    height: 250px; /* altura desejada */
+    transform: translate(103%, 50%); /* ajusta para o centro */
+
+}
+
+.rodape-index{
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: center;
+    padding: 15px;
+    border-top: 0.5px solid #FFF2E7;
+    transform: translate(0%, 150%); /* ajusta para o centro */
+
+}
+
+.assinatura{
+    font-family: "Sacramento", cursive;    font-weight: 300;
+    font-size: 27px;
+    color: #FFF2E7;  
+}
+  
+/* Estilização: Minha formação */
+
+.conteudo-principal-formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0 auto; /* Adiciona margem vertical */
+    max-width: 1250px; /* Define largura máxima para centralizar */
+}
+
+.conteudo-principal-formacao-texto {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFF2E7;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.rodape-formacao{
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: center;
+    padding: 15px;
+    border-top: 0.5px solid #FFF2E7;
+    transform: translate(0%, 290%); /* ajusta para o centro */
+
+}
+
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px; 
+    color: cadetblue;
+}
+
+.github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    color: cadetblue;
+}
+
+.rodape-portifolio{
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: center;
+    padding: 15px;
+    border-top: 0.5px solid #FFF2E7;
+    transform: translate(0%, 369%); /* ajusta para o centro */
+
+}
+
+.conteudo-principal-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: safe;
+    margin: 0 auto; /* Adiciona margem vertical */
+}
+
+.conteudo-principal-escrito {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFF2E7;
+    text-align: justify; /* Centraliza o texto horizontalmente */
+}
+
+.custom-textarea {
+    width: 400px; /* Largura do textarea */
+    height: 50px; /* Altura do textarea */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    resize: both; /* Permite redimensionar tanto horizontalmente quanto verticalmente */
+}
+
+.botao{
+    position: relative;
+    width: 20%;
+    transform: translate(200%, 150%); /* ajusta para o centro */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.rodape-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: center;
+    padding: 15px;
+    border-top: 0.5px solid #FFF2E7;
+    transform: translate(0%, 440%); /* ajusta para o centro */
+}
